@@ -16,7 +16,7 @@ export async function handleGetUser(params: z.infer<typeof getUserSchema>): Prom
 
 export const getGroupsSchema = z.object({
   group_ids: z.string().describe("ID или короткие имена групп через запятую"),
-  fields: z.string().default("members_count,description").describe("Дополнительные поля"),
+  fields: z.string().default("members_count,description,activity,status").describe("Дополнительные поля"),
 });
 
 export async function handleGetGroups(params: z.infer<typeof getGroupsSchema>): Promise<string> {
