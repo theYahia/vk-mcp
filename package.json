@@ -1,12 +1,18 @@
 {
   "name": "@theyahia/vk-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for VK API — wall posts, news search, users, groups. 4 tools.",
   "type": "module",
   "main": "dist/index.js",
-  "bin": { "vk-mcp": "dist/index.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "bin": {
+    "vk-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -22,11 +28,26 @@
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/vk-mcp",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "ai", "russian-api", "vk", "vkontakte", "social-media"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "russian-api",
+    "vk",
+    "vkontakte",
+    "social-media"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/vk-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/vk-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/vk-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
