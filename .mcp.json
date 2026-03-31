@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vk": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/vk-mcp"],
+      "env": {
+        "VK_ACCESS_TOKEN": ""
+      }
+    }
+  }
+}
