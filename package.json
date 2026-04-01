@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/vk-mcp",
-  "version": "1.0.1",
-  "description": "MCP server for VK API — wall posts, news search, users, groups. 4 tools.",
+  "version": "1.1.1",
+  "description": "MCP server for VKontakte — wall posts, news, users, groups (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -41,7 +41,9 @@
     "russian-api",
     "vk",
     "vkontakte",
-    "social-media"
+    "social-media",
+    "api",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
