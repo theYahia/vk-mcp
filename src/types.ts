@@ -39,3 +39,20 @@ export interface NewsfeedSearchResult {
   items: WallPost[];
   total_count: number;
 }
+
+export interface VkFriend {
+  id: number;
+  first_name: string;
+  last_name: string;
+  nickname?: string;
+  city?: { id: number; title: string };
+  photo_200?: string;
+}
+
+export interface VkStatsDay {
+  day: string;
+  views?: number;
+  visitors?: number;
+  subscribed?: number;
+  unsubscribed?: number;
+}
