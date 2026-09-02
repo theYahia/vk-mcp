@@ -1,6 +1,6 @@
-# @theyahia/vk-mcp
+# VK MCP — публикация во ВКонтакте и работа со стеной из нейросети
 
-MCP-сервер для VK API — записи со стены, публикация, сообщения, друзья, пользователи, группы, статистика. **8 инструментов.**
+Если вы искали, как постить во ВКонтакте прямо из диалога с ИИ, читать стену сообщества, разбирать личные сообщения или снимать статистику группы без ручных выгрузок — это оно. **8 инструментов** поверх VK API: записи со стены, публикация, сообщения, друзья, пользователи, группы и статистика.
 
 [![npm](https://img.shields.io/npm/v/@theyahia/vk-mcp)](https://www.npmjs.com/package/@theyahia/vk-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -117,3 +117,4 @@ MIT
 ---
 
 Часть [WWmcp](https://github.com/theYahia/WWmcp) · Telegram: [@vhodvai](https://t.me/vhodvai)
+
