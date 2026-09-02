@@ -5,7 +5,7 @@ MCP-сервер для VK API — записи со стены, публика�
 [![npm](https://img.shields.io/npm/v/@theyahia/vk-mcp)](https://www.npmjs.com/package/@theyahia/vk-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Часть серии [Russian API MCP](https://github.com/theYahia/russian-mcp) (50 серверов) by [@theYahia](https://github.com/theYahia).
+Часть серии [WWmcp](https://github.com/theYahia/WWmcp) (46 серверов) by [@theYahia](https://github.com/theYahia).
 
 ## Установка
 
@@ -106,10 +106,14 @@ npm run dev       # tsx watch
 - Retry: 3 попытки с exponential backoff (429, 5xx)
 - Timeout: 10 секунд
 
-## Часть серии Russian API MCP
+## Часть серии WWmcp
 
-**50 серверов:** [github.com/theYahia/russian-mcp](https://github.com/theYahia/russian-mcp)
+**46 серверов:** [github.com/theYahia/WWmcp](https://github.com/theYahia/WWmcp)
 
 ## Лицензия
 
 MIT
+
+---
+
+Часть [WWmcp](https://github.com/theYahia/WWmcp) · Telegram: [@vhodvai](https://t.me/vhodvai)
